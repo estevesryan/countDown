@@ -20,9 +20,6 @@ function displayClock() {
     time.seconds < 10 ? seconds.innerHTML = "0" + seconds.minutes : seconds.innerHTML = time.seconds
 }
 
-
-
-
 start = setInterval(countClock, 1000)
 
 function countClock() {
