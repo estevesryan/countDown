@@ -17,7 +17,7 @@ function displayClock() {
     time.days < 10 ? days.innerHTML = "0" + time.days : days.innerHTML = time.days
     time.hours < 10 ? hours.innerHTML = "0" + time.hours : hours.innerHTML = time.hours
     time.minutes < 10 ? minutes.innerHTML = "0" + time.minutes : minutes.innerHTML = time.minutes
-    time.seconds < 10 ? seconds.innerHTML = "0" + seconds.minutes : seconds.innerHTML = time.seconds
+    time.seconds < 10 ? seconds.innerHTML = "0" + seconds.seconds : seconds.innerHTML = time.seconds
 }
 
 start = setInterval(countClock, 1000)
