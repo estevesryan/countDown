@@ -7,6 +7,7 @@ class timer {
     }
 }
 
+
 const days = document.getElementById('days')
 const hours = document.getElementById('hours')
 const minutes = document.getElementById('minutes')
@@ -19,6 +20,7 @@ function displayClock() {
     time.minutes < 10 ? minutes.innerHTML = "0" + time.minutes : minutes.innerHTML = time.minutes
     time.seconds < 10 ? seconds.innerHTML = "0" + time.seconds : seconds.innerHTML = time.seconds
 }
+
 
 start = setInterval(countClock, 1000)
 
